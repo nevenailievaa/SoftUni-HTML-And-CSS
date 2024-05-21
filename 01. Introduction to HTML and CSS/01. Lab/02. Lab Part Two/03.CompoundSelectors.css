@@ -1,0 +1,21 @@
+p.text-highlight {
+    color: #007BFF;
+    font-size: 18px;
+}
+
+div#special-box {
+    background-color: #FFC107;
+}
+
+input[type="text"].input-text {
+    border-color: #28A745;
+    padding: 5px;
+    margin-top: 10px;
+    display: block;
+}
+
+.important-item.special-highlight {
+    font-style: italic;
+    font-weight: bold;
+    color: #DC3545;
+}

@@ -1,0 +1,15 @@
+h1, h2, p {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+header, section, footer {
+    margin: 10px 0;
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+
+nav a:hover, .services a:hover, footer a:hover {
+    color: #007bff;
+    text-decoration: underline;
+}

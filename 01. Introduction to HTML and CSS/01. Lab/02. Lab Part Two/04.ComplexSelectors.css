@@ -1,0 +1,41 @@
+nav ul li a {
+    color: navy;
+    text-decoration: none;
+}
+
+.content > section.highlight > article {
+    background-color: lightblue;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+section + header {
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+section.highlight ~ footer {
+    background-color: lightgrey;
+}
+
+.contact-form input[type="text"] {
+    border: 1px solid blue;
+}
+
+nav ul li:first-child a {
+    font-weight: bold;
+}
+
+nav ul li:last-child a {
+    font-style: italic;
+}
+
+section.highlight h2::before {
+    content: ">> ";
+    color: darkred;
+}
+
+section.highlight h2::after {
+    content: " <<";
+    color: darkred;
+}
