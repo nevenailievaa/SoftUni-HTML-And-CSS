@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.gallery a:hover img {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.gallery a:focus img {
+    outline: 3px solid #007bff;
+    outline-offset: 3px;
+}

@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+.blog-posts article {
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.blog-posts h2 {
+    margin-top: 0;
+}
+
+.blog-posts header p {
+    font-size: 0.9em;
+    color: #6c757d;
+}
+
+.blog-posts .author {
+    font-weight: bold;
+}
+
+.blog-posts time {
+    font-style: italic;
+}
+
+@media (max-width: 600px) {
+    .blog-posts article {
+        margin: 20px 0;
+    }
+}
