@@ -1,0 +1,15 @@
+div{
+    border: 1px solid black;
+}
+
+div.uniform-margin{
+    margin: 40px;
+}
+
+div.non-uniform-margin{
+    margin: 10px 30px 20px 40px;
+}
+
+div.negative-margin{
+    margin: -20px 40px;
+}
