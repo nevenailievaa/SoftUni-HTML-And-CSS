@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    padding: 2em 6em 2em 6em;
+    border: 2px solid green;
+    max-width: 2000px;
+    min-width: 300px;
+    margin:auto;
+}
+
+section {
+    padding: 2em 3em 2em 3em;
+    border: 2px solid black;
+    margin-bottom: 2em;
+}
+
+section:last-child {
+    margin-bottom: 0;
+}
+
+header, p, footer {
+    border: 2px solid blue;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1.5em;
+}
+
+footer {
+    margin-bottom: 0;
+}

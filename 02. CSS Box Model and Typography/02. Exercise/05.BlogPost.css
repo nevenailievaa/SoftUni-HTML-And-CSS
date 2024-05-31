@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+.site-content {
+    margin: 2em auto;
+    font-family: sans-serif;
+}
+
+article {
+    max-width: 1000px;
+    min-width: 300px;
+    border: 1px solid #ccc;
+    margin: 2em auto;
+    padding: 2em;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    line-height: 1.5
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0.5em;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.post-info {
+    font-style: italic;
+    margin-bottom: 0;
+}
