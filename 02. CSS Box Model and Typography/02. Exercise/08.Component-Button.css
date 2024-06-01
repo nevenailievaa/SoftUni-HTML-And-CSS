@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    padding: 2em;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    margin-bottom: 0.4em;
+    margin-top: 0.8em;
+}
+
+body > :first-child {
+    margin-top: 0;
+}
+
+[class|="button"] {
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding: 0.5em;
+    margin: 0.2em;
+    text-decoration: none;
+    color: black;
+}
+
+[class|="button"]:hover {
+    cursor: pointer;
+}
+
+.button-grey {
+    background-color: lightgrey;
+}
+.button-grey:hover {
+    background-color: rgb(177, 177, 177);
+}
+
+.button-orange {
+    background-color: rgb(255, 191, 72);
+}
+.button-orange:hover {
+    background-color: rgb(255, 166, 0);
+}
+
+.button-yellow {
+    background-color: lightyellow;
+}
+.button-yellow:hover {
+    background-color: rgb(255, 255, 145);
+}
+
+.button-white {
+    background-color: white;
+}
+.button-white:hover {
+    background-color: rgb(238, 238, 238);
+}

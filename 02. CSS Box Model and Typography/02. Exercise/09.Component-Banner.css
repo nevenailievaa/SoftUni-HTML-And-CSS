@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.banner {
+    position: relative;
+    height: 500px;
+    background-image: url('https://cdn-kdfih.nitrocdn.com/bRdtrDeMYMaIbNSFmcCjcGClMyXGsYXx/assets/images/optimized/wp-content/uploads/2023/09/8566006a84447eba00d68c2ce8eccb4f.frames-for-your-heart-zSG-kd-L6vw-unsplash-1024x683.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);;
+}
+
+
+.banner h1, .banner h5 {
+    position: relative;
+    z-index: 2;
+    color: white;
+}

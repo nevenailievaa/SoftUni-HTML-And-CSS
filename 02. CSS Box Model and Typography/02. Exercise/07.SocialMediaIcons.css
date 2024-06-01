@@ -1,0 +1,42 @@
+h1 {
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+.social-icons {
+    display: flex;
+}
+
+.icon {
+    width: 60px; /* Size of the circle */
+    height: 60px; /* Size of the circle */
+    border-radius: 50%; /* Make it a circle */
+    margin-right: 10px; /* Adjust spacing between icons */
+    background-size: 50%; /* Set the size of the background image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-position: center; /* Center the background image */
+}
+
+.facebook {
+    background-image: url('https://cdn.icon-icons.com/icons2/2428/PNG/512/facebook_black_logo_icon_147136.png'); 
+    background-color: #d3d3d3;
+}
+
+.twitter {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Twitter_bird_logo_black.svg/2048px-Twitter_bird_logo_black.svg.png');
+    background-color: #d3d3d3;
+}
+
+.github {
+    background-image: url('https://cdn-icons-png.flaticon.com/512/25/25231.png');
+    background-color: #d3d3d3;
+}
+
+.instagram {
+    background-image: url('https://cdn0.iconfinder.com/data/icons/social-media-logo-4/32/Social_Media_instagram-512.png'); 
+    background-color: #d3d3d3;
+}
+
+.facebook:hover, .twitter:hover, .github:hover, .instagram:hover{
+    background-color: #bebebe;
+}

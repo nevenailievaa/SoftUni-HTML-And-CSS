@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+.site-content {
+    margin: 2em auto;
+    font-family: sans-serif;
+}
+
+.components {
+    max-width: 1000px;
+    min-width: 300px;
+    border: 1px solid #ccc;
+    margin: 2em auto;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    line-height: 1.5
+}
+
+details {
+    border: 1px solid #ccc;
+}
+
+summary {
+    margin: 1em;
+    cursor: pointer;
+}
+
+p  {
+    margin: 1em;
+}
