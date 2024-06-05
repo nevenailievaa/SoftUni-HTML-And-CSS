@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 1em 0.5em 1em 0.5em;
+}
+
+h2 {
+    padding: 0.5em 0.5em 0.5em 0;
+}
+[class*="flex-wrap"]{
+    border: 2px solid blue;
+    width: 400px;
+    padding: 1em;
+    display: flex;
+}
+
+.flex-wrap-nowrap {
+    flex-wrap: nowrap;
+}
+
+.flex-wrap-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-wrap-wrap-reverse {
+    flex-wrap: wrap-reverse;
+}
+
+.flex-item {
+    border: 2px solid black;
+    padding: 20px;
+    background-color: #eee;
+}

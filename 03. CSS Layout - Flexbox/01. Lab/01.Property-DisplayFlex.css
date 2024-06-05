@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 1em 0.5em 1em 0.5em;
+}
+
+h1 {
+    padding: 0 0 0.5em 0;
+}
+
+.flex-container {
+    border: 2px solid blue;
+    width: 400px;
+    padding: 1em;
+    display: flex;
+}
+
+.flex-item {
+    border: 2px solid black;
+    padding: 20px;
+    background-color: #eee;
+}

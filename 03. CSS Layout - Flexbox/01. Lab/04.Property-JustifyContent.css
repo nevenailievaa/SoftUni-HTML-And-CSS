@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 1em 0.5em 1em 0.5em;
+}
+
+h2 {
+    padding: 0.5em 0.5em 0.5em 0;
+}
+[class*="justify-content"]{
+    border: 2px solid blue;
+    width: 400px;
+    padding: 1em;
+    display: flex;
+}
+
+.justify-content-flex-start {
+    justify-content: flex-start;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-flex-end {
+    justify-content: flex-end;
+}
+
+.justify-content-space-between {
+    justify-content: space-between;
+}
+
+.justify-content-space-around {
+    justify-content: space-around;
+}
+
+.justify-content-space-evenly {
+    justify-content: space-evenly;
+}
+
+.flex-item {
+    border: 2px solid black;
+    padding: 20px;
+    background-color: #eee;
+}
