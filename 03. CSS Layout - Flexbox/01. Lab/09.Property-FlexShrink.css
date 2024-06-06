@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 1em 0.5em 1em 0.5em;
+}
+
+h2 {
+    padding: 0.5em 0.5em 0.5em 0;
+}
+
+[class*="flex-shrink"]{
+    border: 2px solid blue;
+    max-width: 300px;
+    padding: 1em;
+    display: flex;
+}
+
+.flex-shrink-zero .flex-item{
+    flex-shrink: 0;
+}
+
+.flex-shrink-one .flex-item{
+    flex-shrink: 1;
+}
+
+.flex-shrink-secondchild .flex-item {
+    flex-shrink: 0;
+}
+.flex-shrink-secondchild .flex-item:nth-of-type(2) {
+    flex-shrink: 1;
+}
+
+.flex-item {
+    border: 2px solid black;
+    padding: 1em;
+    background-color: #eee;
+    flex-basis: 300px;
+}

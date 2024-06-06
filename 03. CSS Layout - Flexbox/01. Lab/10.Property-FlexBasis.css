@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 1em 0.5em 1em 0.5em;
+}
+
+h2 {
+    padding: 0.5em 0.5em 0.5em 0;
+}
+
+[class*="flex-basis"]{
+    border: 2px solid blue;
+    width: 300px;
+    padding: 1em;
+    display: flex;
+    align-items: flex-start;
+}
+
+.flex-basis-one .flex-item{
+    flex-basis: 5em;
+}
+
+.flex-basis-two .flex-item{
+    flex-basis: 5em;
+    flex-shrink: 0;
+    max-width: 5em;
+}
+
+.flex-basis-three {
+    width: auto;
+}
+.flex-basis-three .flex-item {
+    flex-basis: 5em;
+    flex-grow: 1;
+    min-width: 5em;
+}
+
+.flex-item {
+    border: 2px solid black;
+    padding: 1em;
+    background-color: #eee;
+    flex-basis: 300px;
+}

@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 1em 0.5em 1em 0.5em;
+}
+
+h2 {
+    padding: 0.5em 0.5em 0.5em 0;
+}
+
+[class*="gap"]{
+    border: 2px solid blue;
+    padding: 1em;
+    width: 25em;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box; 
+}
+
+.flex-container {
+    border: 2px solid blue;
+    width: 400px;
+    padding: 1em;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.gap-row {
+    gap: 2em 0;
+}
+.gap-column {
+    gap: 0 2em;
+}
+.gap-gap {
+    gap: 2em;
+}
+
+.flex-item {
+    border: 2px solid black;
+    padding: 1em;
+    background-color: #eee;
+}
