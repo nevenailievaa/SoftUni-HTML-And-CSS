@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ccc;
+}
+
+body > div {
+    background-color: white;
+    max-width: 1200px;
+    margin: 2em auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 1em;
+    border-radius: 0.2em;
+}
+
+header {
+    margin-bottom: 1em;
+}
+
+footer {
+    margin-top: 1em;
+}
+
+header, footer {
+    border: 1px solid grey;
+    padding: 0.5em;
+}
+
+.container-one, .container-two {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5em;
+}
+
+
+main, aside {
+    border: 1px solid grey;
+    padding: 1em;
+}
+
+.container-one main {
+    flex-grow: 2;
+}
+.container-one aside {
+    flex-grow: 1;
+}
+
+.container-two main {
+    flex-grow: 1;
+}
+.container-two aside {
+    flex-grow: 2;
+}
