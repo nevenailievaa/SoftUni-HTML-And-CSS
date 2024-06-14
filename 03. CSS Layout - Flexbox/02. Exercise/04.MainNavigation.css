@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 2em;
+}
+
+nav {
+    background-color: rgba(231, 231, 231, 0.8);
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 0.3em;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.1);
+    padding: 0.5em 0 0.5em 0.5em;
+    display: flex;
+    gap: 1em 1em;
+    font: 14px/1.5 sans-serif;
+    font-weight: bold;
+}
+
+nav p {
+    padding: 0.5em;
+    background-color: white;
+    color: orange;
+    border-radius: 0.3em;
+    border: 1px solid rgb(211, 211, 211);
+}

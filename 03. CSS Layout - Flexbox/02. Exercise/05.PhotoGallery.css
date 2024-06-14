@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 2em;
+    background-color: #e4e4e4;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    font: 14px/1.5 sans-serif;
+    font-weight: bold;
+    flex-grow: 1;
+}
+
+.container .image {
+    padding: 1em;
+    margin: 1em;
+    border: 8px solid rgb(58, 58, 58);
+    border-radius: 0.3em;
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1 30%;
+    position: relative; 
+}
+
+.container .image img {
+    max-width: 100%; 
+    margin-bottom: 2em;
+}
+
+.container .image h4 {
+    color: rgb(150, 150, 150);
+    margin-left: 0.5em;
+    padding: 0.5em;
+
+    position: absolute;
+    bottom: 0;
+    left: 0; 
+}
