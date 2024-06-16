@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+html {
+    font-family: "Lato", sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    max-width: 1000px;
+    border: 2px solid rgb(183, 182, 182);
+    border-radius: 1em;
+    margin: 4em auto;
+    padding: 1em;
+    background-color: rgba(144, 144, 144, 0.23);
+    box-shadow: 0 4px 0 grey;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row:nth-child(1) .button {
+    padding: 0.4em 1em;
+}
+
+.button {
+    min-width: 20px;
+    padding: 0.9em 1em;
+    border: 1px solid lightgray;
+    text-align: center;
+    border-radius: 0.2em;
+    background-color: white;
+    box-shadow: 0 2px 0 grey;
+}
+
+.button.backspace {
+    flex-grow: 0.1;
+}
+
+.button.tab {
+    flex-grow: 0.12;
+}
+
+.button.enter {
+    flex-grow: 0.1;
+    border-bottom: none;
+    box-shadow: none;
+}
+
+.button.enter-lower {
+    margin-top: -1em;
+    border-top: none;
+}
+
+.button.left-shift {
+    flex-grow: 0.05;
+}
+
+.button.right-shift {
+    flex-grow: 0.35;
+}
+
+.button.space {
+    flex-grow: 0.6;
+}
+
+.button.bottom {
+    flex-grow: 0.05;
+}
+
+.enter-helper {
+    padding: 1em;
+    border-top: 1px solid lightgray;
+    margin-top: -1em;
+    margin-right: -0.8em;
+    margin-left: -1.3em;
+}
+
+.special {
+    background-color: rgba(128, 128, 128, 0.134);
+}

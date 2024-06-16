@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eee;
+    padding: 2em;
+    font: 14px/1.5 sans-serif;
+    min-width: 800px;
+    min-height: 800px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    max-width: 550px;
+    background-color: white;
+    border-radius: 0.3em;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.1);
+
+    padding: 2em;
+}
+
+.card h1 {
+    margin-bottom: 0.5em;
+}
+
+.card p {
+    margin-bottom: 1em;
+}
+
+.card ul {
+    margin: 1.5em;
+}
