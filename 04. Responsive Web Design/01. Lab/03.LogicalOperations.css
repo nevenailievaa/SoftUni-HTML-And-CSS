@@ -1,0 +1,35 @@
+@media (min-width: 800px) and (max-width: 1200px) {
+    body::before {
+        display: block;
+        content: 'The viewport width is larger than 800px and smaller than 1200px';
+        padding: 1em;
+        margin-bottom: 1em;
+        background-color: #369;
+        color: white;
+        border-radius: 0.3em;
+    }
+}
+
+@media not (max-width: 1200px) {
+    body::before {
+        display: block;
+        content: 'The viewport width is larger than 1200px';
+        padding: 1em;
+        margin-bottom: 1em;
+        background-color: #369;
+        color: white;
+        border-radius: 0.3em;
+    }
+} 
+
+@media only screen and (min-width: 800px) {
+    body::before {
+        display: block;
+        content: 'The device is using a screen and the viewport width is larger than 800px';
+        padding: 1em;
+        margin-bottom: 1em;
+        background-color: #369;
+        color: white;
+        border-radius: 0.3em;
+    }
+}

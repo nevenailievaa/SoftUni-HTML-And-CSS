@@ -1,0 +1,23 @@
+@media (hover: none) {
+    body::before {
+        display: block;
+        content: 'The device does NOT support hover';
+        padding: 1em;
+        margin-bottom: 1em;
+        background-color: #369;
+        color: white;
+        border-radius: 0.3em;
+    }
+}
+
+@media (hover: hover) {
+    body::before {
+        display: block;
+        content: 'The device does support hover';
+        padding: 1em;
+        margin-bottom: 1em;
+        background-color: #369;
+        color: white;
+        border-radius: 0.3em;
+    }
+}

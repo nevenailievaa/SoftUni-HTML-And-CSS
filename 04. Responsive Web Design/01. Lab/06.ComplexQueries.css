@@ -1,0 +1,35 @@
+@media (min-width: 30em) and (orientation: landscape) {
+    body::before {
+        display: block;
+        content: 'The viewport width is larger than 30em and the orientation is landscape.';
+        padding: 1em;
+        margin-bottom: 1em;
+        background-color: #369;
+        color: white;
+        border-radius: 0.3em;
+    }
+}   
+
+@media (min-height: 680px), screen and (orientation: portrait) {
+    body::before {
+        display: block;
+        content: 'The viewport height is larger than 680px or the media type is screen and the orientation is portrait.';
+        padding: 1em;
+        margin-bottom: 1em;
+        background-color: #369;
+        color: white;
+        border-radius: 0.3em;
+    }
+}
+
+@media not (min-width: 600px) {
+    body::before {
+        display: block;
+        content: 'The view port is NOT larger than 600px';
+        padding: 1em;
+        margin-bottom: 1em;
+        background-color: #369;
+        color: white;
+        border-radius: 0.3em;
+    }
+}

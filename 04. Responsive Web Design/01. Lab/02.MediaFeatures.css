@@ -1,0 +1,47 @@
+@media (hover: none) {
+    body::before {
+        display: block;
+        content: 'This device doesnt support hover';
+        padding: 1em;
+        margin-bottom: 1em;
+        background-color: #369;
+        color: white;
+        border-radius: 0.3em;
+    }
+}
+
+@media (orientation: landscape) {
+    body::before {
+        display: block;
+        content: 'The device is in landscape orientation';
+        padding: 1em;
+        margin-bottom: 1em;
+        background-color: #369;
+        color: white;
+        border-radius: 0.3em;
+    }
+}
+
+@media (width: 600px) {
+    body::before {
+        display: block;
+        content: 'The viewport width is 600px';
+        padding: 1em;
+        margin-bottom: 1em;
+        background-color: #369;
+        color: white;
+        border-radius: 0.3em;
+    }
+}
+
+@media (height: 800px) {
+    body::before {
+        display: block;
+        content: 'The viewport height is 800px';
+        padding: 1em;
+        margin-bottom: 1em;
+        background-color: #369;
+        color: white;
+        border-radius: 0.3em;
+    }
+}
