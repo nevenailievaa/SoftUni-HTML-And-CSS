@@ -1,0 +1,69 @@
+@media (orientation: landscape) or (orientation: portrait) {
+    html {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    
+    body {
+        font: 14px/1.5 sans-serif;
+    }
+    
+    p, ol, ul {
+        padding-bottom: 1.5rem;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+    
+    ol, ul {
+        padding-left: 1.5em;
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+        line-height: 1.2;
+        margin-left: 15px;
+        margin-top: 1em;
+        margin-bottom: 0.5em;
+        font-family: Georgia;
+    }
+    
+    table {
+        width: 90%;
+        border-collapse: collapse;
+        margin: 10px 0;
+        font-size: 15px;
+        text-align: left;
+        margin: 0px 15px 20px 15px;
+    }
+    
+    th, td {
+        padding: 12px;
+        border: 1px solid #ddd;
+    }
+    
+    th {
+        background-color: #bebebe;
+    }
+    
+    tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+    
+    td:hover {
+        background-color: #f1f1f1;
+    }
+    
+    blockquote {
+        margin: 0em 1em 1em 1em;
+        padding: 1em 1em 0em 1em;
+        border-left: 3px solid #a3a3a3;
+        font-style: italic;
+        line-height: 1.5;
+        background-color: #f1f1f1;
+        border-radius: 12px;
+    }
+    
+    blockquote p.author {
+        text-align: right;
+        font-weight: bold;
+    }
+}
