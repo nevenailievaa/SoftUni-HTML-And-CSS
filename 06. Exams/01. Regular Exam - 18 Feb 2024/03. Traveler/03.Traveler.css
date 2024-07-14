@@ -1,0 +1,256 @@
+/*FONT IMPORT*/
+@import url(https://fonts.googleapis.com/css2?family=Karla&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Cormorant+Infant&display=swap);
+
+
+
+/*GLOBAL*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 14px/1.5 "Cormorant Infant", sans-serif;
+}
+
+body {
+    font: inherit;
+}
+
+
+
+/*SECTION ONE*/
+
+/*Navigation*/
+.navigation {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    min-height: 65px;
+    padding: 1em 4em 0 3em;
+
+    font: 18px/1.5 "Karla", sans-serif;
+}
+
+.navigation > img {
+    max-height: 65px;
+}
+
+.navigation header {
+    display: flex;
+    gap: 2em;
+    align-items: center;
+}
+
+.navigation header a {
+    font: 18px/1.5 "Karla", sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.navigation header a:hover {
+    color: #C52C04;
+}
+
+/*Full Section*/
+.sectionOne {
+    position: relative;
+    height: 500px;
+    background-image: url('Images/poster.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sectionOne::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+.sectionOne .info {
+    position: relative;
+    z-index: 2;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2em;
+}
+
+.sectionOne .info {
+    text-align: center;
+    color: white;
+}
+
+.sectionOne .info h1{
+    font-size: 90px;
+    margin-top: 1em;
+}
+
+.sectionOne .info p{
+    font: 18px/1.5 "Karla", sans-serif;
+    max-width: 650px;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+
+
+/*SECTION TWO*/
+.sectionTwo {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    height: 425px;
+    background-color: #F8F0E9;
+    padding: 2em 35em 2em 35em;
+}
+
+.sectionTwo h1{
+    margin-top: 0.3em;
+    font: 60px/1 "Cormorant Infant", sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    color: #352B2A;
+}
+
+.sectionTwo p{
+    font: 18px/1.5 "Karla", sans-serif;
+    color: #352B2A;
+}
+
+
+
+/* SECTION THREE */
+.sectionThree {
+    height: 210px;
+    background-color: #E14747;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.sectionThree h4, p {
+    font: 18px/1.5 "Karla", sans-serif;
+    color: white;
+}
+
+.sectionThree h4 {
+    font-weight: bold;
+}
+
+.sectionThree p {
+    max-width: 250px;
+    color: #F6E4F0;
+}
+
+
+
+/*SECTION FOUR*/
+.sectionFour {
+    display: flex;
+    flex-direction: column;
+    gap: 4em;
+    height: 900px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #F8F0E9;
+}
+
+.sectionFour .text {
+    text-align: left;
+}
+
+.sectionFour h1{
+    font: 60px/1 "Cormorant Infant", sans-serif;
+    font-weight: bold;
+    max-width: 450px;
+}
+
+.sectionFour .text p{
+    font: 16px/1.5 "Karla", sans-serif;
+    color: #515874;
+    max-width: 450px;
+}
+
+.sectionFour .text button{
+    margin-top: 4em;
+    padding: 0.5em;
+}
+
+.sectionFour img{
+    height: 300px;
+    max-width: 550px;
+}
+
+.sectionFour button{
+    padding: 0.5em;
+}
+
+
+
+/*SECTION FIVE*/
+.sectionFive {
+    display: flex;
+    flex-direction: column;
+    gap: 4em;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #E14747;
+}
+
+.sectionFive h1{
+    font: 50px/1 "Cormorant Infant", sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.sectionFive p{
+    font: 16px/1.5 "Karla", sans-serif;
+    color: #F6E4F0;
+    max-width: 780px;
+}
+
+.sectionFive button{
+    color: black;
+    background-color: #FAD87A;
+    border: none;
+    padding: 1em;
+    border-radius: 2em;
+}
+
+
+
+/*FOOTER*/
+footer {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    height: 200px;
+    background-color: #352B2A;
+    padding: 2em 6em 2em 6em;
+}
+
+footer img{
+    max-width: 50px;
+}
+
+footer p:nth-of-type(2){
+    color: #5A4F44; 
+}

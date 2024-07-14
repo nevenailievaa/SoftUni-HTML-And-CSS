@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 14px/1.5 "Inter", sans-serif;
+}
+
+body {
+    font: inherit;
+}
+
+.container {
+    margin: 0 auto;
+    height: 610px;
+    width: 1080px;
+    background-color: #85DCFF;
+    padding: 3em;
+
+    display: flex;
+    gap: 2em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container img {
+    max-height: 480px;
+    box-shadow: 0 0 1em 0 rgb(0,0,0,0.6);
+}
+
+.info h1{
+    font: 45px/1.2 "Inter", sans-serif;
+    font-weight: bold;
+    display: block;
+    max-width: 420px;;
+    margin-bottom: 0.5em;
+}
+
+.buttons {
+    margin-top: 2em;
+    display: flex;
+    gap: 1em;
+}
+
+.buttons button {
+    padding: 1em 1.5em 1em 1.5em;
+    border-radius: 0.2em;
+    box-shadow: 0 0 1em 0 rgb(0,0,0,0.1);
+}
+
+.buttons button:nth-of-type(1) {
+    background-color: #42AA59;
+    border: 1px solid black;
+}
+.buttons button:nth-of-type(1):hover {
+    background-color: black;
+    color: white;
+}
+
+.buttons button:nth-of-type(2) {
+    border: none;
+}

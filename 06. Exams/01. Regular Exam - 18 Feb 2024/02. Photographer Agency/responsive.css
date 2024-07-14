@@ -1,0 +1,85 @@
+@media (max-width: 600px)
+{
+    header {
+        background: linear-gradient(rgba(165, 163, 163, 0.3), rgba(165, 163, 163, 0.3)), url(./images/background.jpg) no-repeat center center;
+        background-size: cover;
+        padding: 1rem 0;
+        text-shadow: 1px 1px 1px rgb(80, 79, 79);
+        max-height: 500px;
+    }
+
+    .header-title {
+        color: white;
+        margin: 0 auto;
+        text-align: center;
+        padding: 1em 0;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header nav {
+        display: flex;
+        align-items: center;
+    }
+
+    .header-title h1 {
+        font-size: 35px;
+        padding-bottom: 0.5em;
+    }
+
+
+    .choose-us ul {
+        display: flex;
+        justify-content: space-around;
+        gap: 2em;
+    }
+
+    .choose-us li {
+        flex: 0 0 25%;
+        text-align: center;
+        width: 70%;
+    }
+
+    .about-us {
+        width: 80%;
+        margin: 0 auto;
+        padding: 2.5rem 0;
+        text-align: center;
+    }
+
+    .about-us p:nth-child(3) {
+        width: 100%;
+    }
+
+    .team-description-wrapper, .about-us {
+        width: 50%;
+        margin: 0 auto;
+        padding: 1.5rem 0;
+        text-align: center;
+    }
+
+    .team-description ul {
+        display: flex;
+        gap: 2em;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .team-description ul li {
+        flex: 1 0 auto; /* This allows each item to grow equally within the container */
+        text-align: center; /* Ensure items are centered */
+        margin: 0 1rem; /* Add some margin to space them out */
+        max-width: 40%; /* Or set a width that fits your design */
+      }
+      
+      .team-description ul li img {
+        width: 100%;
+        height: auto; /* Ensure images are responsive */
+      }
+      
+}
