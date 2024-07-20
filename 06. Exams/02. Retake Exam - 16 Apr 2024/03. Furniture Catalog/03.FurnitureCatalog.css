@@ -1,0 +1,265 @@
+/*FONT IMPORT*/
+/*FONT IMPORT*/
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i|PT+Serif:400,400i,700,700i&display=swap);
+
+
+
+/*GLOBAL*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 14px/1.5 "PT Sans", sans-serif;
+}
+
+body {
+    font: inherit;
+}
+
+
+
+/*SECTION ONE*/
+
+/*Navigation*/
+.navigation {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: space-around;
+    min-height: 120px;
+    padding-top: 2em;
+}
+
+.navigation > img {
+    max-height: 120px;
+}
+
+.navigation header {
+    display: flex;
+    gap: 2em;
+    align-items: center;
+}
+
+.navigation header a {
+    font: 20px/1.5 "PT Sans", sans-serif;
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navigation header a:hover {
+    color: #008080;
+}
+
+/*Full Section*/
+.sectionOne {
+    position: relative;
+    height: 500px;
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sectionOne::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.4);
+    z-index: 1;
+}
+
+.sectionOne .info {
+    position: relative;
+    z-index: 2;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2em;
+}
+
+.sectionOne .text {
+    text-align: center;
+}
+
+.sectionOne .info h1{
+    font-size: 40px;
+}
+
+.sectionOne .info button{
+    padding: 0.5em 0.7em 0.5em 0.7em;
+    border: none;
+    border-radius: 0.2em;
+    font-weight: bold;
+    color: #686666;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.2);
+}
+.sectionOne .info button:hover{
+    color: #ffffff;
+    background-color: #008080;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.2);
+}
+
+
+
+/*SECTION TWO*/
+.sectionTwo {
+    display: flex;
+    flex-direction: column;
+    min-height: 450px;
+    background-color: #60ACC1;
+}
+
+.sectionTwo .catalog {
+    text-align: center;
+    padding: 1em 0 0 0;
+}
+
+.sectionTwo img {
+    max-width: 50%;
+    max-height: 100%;
+    display: block;
+}
+
+.sectionTwo .cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 1;
+    padding: 1.5em 0 2.5em 0;
+}
+
+.sectionTwo .card {
+    margin: 0 3em 0 3em;
+    background-color: white;
+    display: flex;
+    max-width: 660px;
+    border-right: 10px solid #60ACC1;
+    box-shadow: 0 0 2em 0 rgb(0,0,0,0.5);
+}
+
+.sectionTwo .card .card-info{
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    align-items: center;
+    justify-content: center;
+}
+
+.sectionTwo .card .card-info h1{
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.sectionTwo .card .card-info p{
+    font-size: 20px
+}
+
+
+
+/*SECTION THREE*/
+.sectionThree {
+    display: flex;
+    padding: 5em;
+    min-height: 320px;
+    align-items: center;
+    justify-content: center;
+    gap: 10em;
+}
+
+.sectionThree img{
+    width: 120px;
+    height: 120px;
+}
+
+.sectionThree .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.5em;
+}
+
+.sectionThree .card h2{
+    color: #67686B;
+}
+.sectionThree .card p{
+    font-size: 17px;
+    color: #67686B;
+}
+
+
+
+/*SECTION FOUR*/
+.sectionFour {
+    background-color: #60ACC1;
+}
+
+.sectionFour .catalog{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em 0 0 0;
+}
+
+.sectionFour .catalog p {
+    font-size: 18px;
+    font-style: italic;
+    color: black;
+}
+
+.sectionFour .images {
+    padding: 2em 0 3em 0;
+    display: flex;
+    gap: 7em;
+    justify-content: center;
+}
+
+.sectionFour img {
+    max-width: 415px;
+    height: 315px;
+    box-shadow: 0 0 2em 0 rgb(0,0,0,0.5);
+}
+
+
+
+/*SECTION FIVE*/
+.sectionFive {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 2em;
+    padding: 2em;
+}
+
+.sectionFive .about-us h1, p {
+    color: #67686B;
+}
+
+.sectionFive > p {
+    color: #67686B;
+    max-width: 920px;
+    font-size: 17px;
+    align-self: center;
+}
+
+
+
+/*FOOTER*/
+footer {
+    background-color: #2D333C;
+    text-align: center;
+}
+
+footer p{
+    color: white;
+    padding: 1em;
+}
