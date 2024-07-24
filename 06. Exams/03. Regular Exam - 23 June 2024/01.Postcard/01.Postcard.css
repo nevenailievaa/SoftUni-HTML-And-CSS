@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 14px/1.5 "Gochi Hand", sans-serif;
+}
+
+body {
+    font: inherit;
+    background-color: #E0E0E0;
+    padding: 2em;
+}
+
+.card {
+    background-color: white;
+    margin: 0 auto;
+    max-height: 810px;
+    max-width: 1000px;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.2);
+    border-radius: 1em;
+}
+
+.box {
+    padding: 2em;
+}
+
+.imageBox {
+    padding: 1em;
+    background-image: url("01.Postcard_Resources/images/nature.jpg");
+    background-size: cover;
+    padding: 2em;
+    height: 535px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-radius: 1em 1em 0 0;
+}
+
+.imageBox .text {
+    padding: 1em;
+    border-radius: 1em;
+    background-color: rgba(255, 255, 255, 1);
+    text-align: center;
+}
+
+.imageBox .text h1{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+.imageBox .text p{
+    font-size: 18px;
+}
+
+.textBox {
+    background-color: #F9F9F9;
+    padding: 2em 3.5em 2em 3.5em;
+    max-height: 225px;
+    border-radius: 0 0 1em 1em;
+    border-top: 1px solid rgb(209, 209, 209);
+}
+
+.textBox h3{
+    font-size: 19px;
+    margin-bottom: 0.8em;
+}
+
+.textBox p{
+    font-size: 16px;
+    margin-bottom: 0.5em;
+    color: #666666;
+}
+
+.textBox p:last-of-type{
+    margin-bottom: 0;
+}
