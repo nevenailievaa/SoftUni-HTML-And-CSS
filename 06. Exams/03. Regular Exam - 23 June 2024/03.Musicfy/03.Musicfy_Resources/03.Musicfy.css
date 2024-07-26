@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 14px/1.5 "Montserrat", sans-serif;
+}
+
+body {
+    font: inherit;
+}
+
+
+/*HEADER*/
+header {
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2em 0 2em;
+}
+
+header .navigation a:hover{
+    color: #1DB954;
+}
+
+header .navigation{
+    display: flex;
+    gap: 2.5em;
+}
+
+header a {
+    font: 16px/1.5 "Lato", sans-serif;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+header img{
+    padding: 0.2em;
+    max-height: 50px;
+}
+
+
+
+/*PLANS*/
+.plans-section {
+    height: 670px;
+    position: relative;
+    background: linear-gradient(#1DB954 50%, white 50%);
+}
+
+.plans-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40%;
+    height: 100%;
+    background-image: url('images/music.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 0;
+}
+
+.plans-section h1, .plans {
+    position: relative;
+    z-index: 1;
+}
+
+.plans-section h1 {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5em 0 0 0;
+}
+
+.plans {
+    display: flex;
+    gap: 14em;
+    justify-content: center;
+    margin: 2em 6em 6em 6em;
+}
+
+.plans .plan-card {
+    background-color: white;
+    border: 1px solid #54546D;
+    border-radius: 1em;
+    height: 500px;
+    width: 525px;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.plans .plan-card h1, p {
+    color: #54546D;
+}
+
+.plans .plan-card button {
+    width: 350px;
+    padding: 1em;
+    margin: 0 auto;
+    border: none;
+    border-radius: 2em;
+    color: white;
+    background-color: #1DB954;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.plans .plan-card button:hover {
+    color: #1DB954;
+    background-color: #191414;
+}
+
+.plans .plan-card .info {
+    padding: 0 1.5em 0 1.5em;
+    font-size: 17px;
+}
+
+.plans .plan-card .info ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.plans .plan-card .info ul li {
+    position: relative;
+    padding-left: 25px;
+}
+
+.plans .plan-card .info ul li:before {
+    content: '';
+    position: absolute;
+    top: 0.4em;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #54546D;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+.plans .plan-card .prices {
+    background-color: #191414;
+    border-radius: 0 0 0.8em 0.8em;
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+.plans .plan-card .prices p {
+    color: white;
+    font: 25px/1.5 "Lato", sans-serif;
+    margin: 0;
+}
+
+.plans .plan-card .prices p:nth-of-type(2) {
+    border-left: 1px solid white;
+    padding-left: 1em;
+}
+
+
+
+/*INFO*/
+.info-section {
+    display: flex;
+    padding: 4em 6em 0 6em;
+    gap: 3em;
+    max-height: 360px;
+    flex-grow: 1;
+}
+
+.info-section .text {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    justify-content: space-between;
+    flex-grow: 2;
+    max-width: 70%;
+}
+
+.info-section .text h1 {
+    font-size: 26px;
+}
+
+.info-section .text p {
+    font: 20px/1.5 "Lato", sans-serif;
+}
+
+.info-section .dogopal {
+    max-width: 30%;
+}
+
+
+
+/*TABLE*/
+.table-section {
+    margin-top: 3em;
+    overflow: hidden;
+    padding: 0 3em 0 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.table-section .text h1, p{
+    margin-bottom: 0.5em;
+}
+
+.table-section .text h1{
+    font-size: 50px;
+}
+.table-section .text p{
+    font-size: 18px;
+}
+
+.table {
+    margin: 2em 0 5em 0;
+    width: 1200px;
+    height: 300px;
+    border-collapse: collapse;
+    table-layout: fixed;
+    border-radius: 0.5em;
+    overflow: hidden;
+}
+
+
+.table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    width: 100px;
+}
+
+.table th {
+    background-color: #f2f2f2;
+}
+
+.table tr:nth-child(odd) {
+    background-color: #CCCBCB;
+}
+.table tr:nth-child(odd):hover {
+    background-color: #696969;
+    color: white;
+}
+
+.table tr:nth-child(even) {
+    background-color: #81D8A0;
+}
+.table tr:nth-child(even):hover {
+    background-color: #1f5835;
+    color: white;
+}
+
+.table img {
+    max-width: 30px;
+    height: auto;
+    vertical-align: middle;
+    margin-left: 35px;
+    width: 15%;
+}
+
+.table td:first-child {
+    width: 70%;
+}
+
+
+
+/*FOOTER*/
+footer {
+    background-color: #191414;
+    text-align: center;
+}
+
+footer p {
+    color: white;
+    margin: 0;
+    padding: 1.5em;
+}
